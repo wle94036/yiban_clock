@@ -45,7 +45,7 @@ class YiBan:
             with open(self.valid_code_path,'wb') as f:
                 f.write(r.content)
                 f.close()
-            self.valid_code = self.base64_api(uname='wle94036', pwd='wle94036', img=self.valid_code_path)
+            self.valid_code = self.base64_api(uname='你的用户名', pwd='你的密码', img=self.valid_code_path)
             os.remove(self.valid_code_path)
         else:
             pass
