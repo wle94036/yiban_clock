@@ -2,5 +2,5 @@
 # 脚本由Python编写，bat版本适用于windows,Linux平台直接使用源码<br/>
 > 使用方法
 > 1.注册ttshitu.com账号，替换YiBan.py中的获取验证码部分<br/>
-> 2.在bat文件中添加一条记录，start python main.py <你的学号>
+> 2.在bat文件中添加一条记录，start python main.py <你的学号><br/>
 > 3.运行bat文件
