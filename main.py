@@ -1,10 +1,13 @@
+#!/usr/bin/python3
 import sys
 import datetime
-from YiBan import YiBan
+# from YiBan import YiBan
+from YB import YiBan
 def main(username):
         username = str(username)
         p=YiBan(username)
         p.con()
+        p.get_valid_code()
         p.login()
         r = p.clock()
         r=str(datetime.datetime.now())+r
